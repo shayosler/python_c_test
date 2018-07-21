@@ -2,9 +2,9 @@
 ## Project specific stuff
 cmake_minimum_required(VERSION 3.7)
 #Project name
-set(project_name budget)
+set(project_name python_c_test)
 #Description
-SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Budget Application")
+SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Applicatin to test calling python function from C++")
 #Directory for the rest of our CMake stuff
 set(cmake_dir /home/shay/development/cmake)
 include(${cmake_dir}/basic_app.cmake)
